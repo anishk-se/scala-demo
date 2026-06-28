@@ -1,8 +1,8 @@
-package com.anishk.ds.playground
+package com.anishk.ds.playground.numbers
 
 import scala.annotation.tailrec
 
-object RecursionDemo extends App {
+object InsertionSort extends App {
   /*
     we need to implement this method that will return a new list of int,
     which is the sorted (ascending order) version of list that we receive as argument.

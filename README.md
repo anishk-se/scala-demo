@@ -7,9 +7,9 @@
 
 <h3 align="center">Numbers</h3>
 
-1. #### Prime check
-2. #### Decompose into primes
-3. #### Enhancing Numbers
+1. #### Insertion Sort
+2. #### Prime check
+3. #### Decompose into primes
 4. #### Approximating pi
 5. #### Recurring Decimals
 6. #### Largest Number
