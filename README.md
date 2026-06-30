@@ -5,29 +5,61 @@
 
 ---
 
-<h3 align="center">Numbers</h3>
-
-1. #### Insertion Sort
-2. #### Prime check
-3. #### Decompose into primes
-4. #### Approximating pi
-5. #### Recurring Decimals
-6. #### Largest Number
-7. #### Reverse Integer
-8. #### Parse Integer
-9. #### Ugly Numbers
-10. #### Duplicates
+<h2 align="center">Numbers</h2>
+1. Reverse a number
+2. Check palindrome number
+3. Armstrong number
+4. Prime number
+5. Factorial
+6. Fibonacci
+7. Sum of digits
+8. Count digits
+9. GCD & LCM
+10. Largest Number from a list
 
 ---
-<h3 align="center">Strings</h3>
+<h2 align="center">Strings</h2>
+1. Reverse a string
+2. Check palindrome
+3. Check anagram
+4. Character frequency
+5. First non-repeating character
+6. Remove duplicate characters
+7. Reverse words in a sentence
+8. Valid Parenthesis
+9. String compression
+10. Longest common prefix
 
-1. #### Count Chars
-2. #### Anagram Check
-3. #### Valid Parentheses
-4. #### Generate Valid Parentheses
-5. #### Justify
-6. #### Ransom Note
-7. #### Compare Version Numbers
-8. #### Multiply Strings
-9. #### Reorganize Strings
-10. #### Reverse Words
+---
+<h2 align="center">Maps</h2>
+1. Word frequency
+2. Character frequency using Map
+3. Count occurrences of elements
+4. Find duplicate elements
+5. First non-repeating element
+6. Two Sum using Map
+7. Merge two maps
+8. Most frequent element
+9. Group strings by first character
+10. Group anagrams
+
+---
+<h2 align="center">Collection</h2>
+<p align="center"><img src="./src/main/resources/colletion_diagram.png" alt="Tail Rec"></p> 
+
+- Colored Box is default implementation
+- Seq is indexed, Set is unique and Map is key-value. (Tree* - is sorted)
+- Everything above is Immutable, Scala also has mutable collections. (scala.collection.mutable._)
+- Scala collections are designed for transformation, Instead of changing the original collection, you create a new one.
+
+### Common method for all collection, because it is defined in Iterable
+
+| Category  | Methods                                     |
+|-----------|---------------------------------------------|
+| Iterate   | `foreach`                                   |
+| Transform | `map`, `flatMap`, `collect`                 |
+| Filter    | `filter`, `filterNot`, `partition`          |
+| Search    | `find`, `exists`, `forall`                  |
+| Aggregate | `fold`,`foldRight`, `reduce`, `reduceRight` |
+| Group     | `groupBy`                                   |
+| Info      | `count`, `size`, `isEmpty`, `nonEmpty`      |
