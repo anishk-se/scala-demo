@@ -63,3 +63,24 @@
 | Aggregate | `fold`,`foldRight`, `reduce`, `reduceRight` |
 | Group     | `groupBy`, `groupMap`                       |
 | Info      | `size`, `isEmpty`, `nonEmpty`, `min`, `max` |
+
+---
+<h2 align="center">Map</h2>
+<h3 align="center">A Map is a collection of key-value pairs, keys in a map are always unique.</h3>
+
+| Category                | Important Methods                         |
+|-------------------------|-------------------------------------------|
+| **Creation**            | `Map()`, `empty`, `from`                  |
+| **Access**              | `apply`, `get`, `getOrElse`               |
+| **Inspection**          | `keys`, `keySet`, `values`                |
+| **Adding / Updating**   | `+`, `++`                                 |
+| **Removing / Ignoring** | `-`, `--`                                 |
+| **Iteration**           | `foreach`                                 |
+| **Transformation**      | `map`, `flatMap`, `collect`               |
+| **Filtering**           | `filter`, `filterNot`                     |
+| **Searching**           | `find`, `exists`, `forall`,`contains`     |
+| **Aggregation**         | `foldLeft`, `reduceLeft`                  |
+| **Grouping**            | `groupBy`, `groupMap`                     |
+| **Info**                | `size`, `isEmpty`, `nonEmpty`, `contains` |
+
+
