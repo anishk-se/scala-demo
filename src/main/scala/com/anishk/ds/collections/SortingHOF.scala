@@ -43,7 +43,7 @@ object SortingHOF extends App {
       - true → a should come before b (return true if you want order unchanged)
       - false → b should come before a (return false if you want order changed)
   - Use if you Need complete control over comparisons.
-  - Tips to decide: treat first(a) and second(b) belongs to sorted list, and write logic to return true.
+  - Tips to decide: treat first(a) and second(b) belongs to result, and write logic to return true.
    */
   // sort in descending order, it picks first = 30 and second = 10 => first(30) > first(10) => true
   println(List(30, 10, 50, 20).sortWith((first, second) => first > second))
