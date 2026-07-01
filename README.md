@@ -52,7 +52,7 @@
 - Everything above is Immutable, Scala also has mutable collections. (scala.collection.mutable._)
 - Scala collections are designed for transformation, Instead of changing the original collection, you create a new one.
 
-### Common method for all collection, because it is defined in Iterable
+### Common method for all collection, because it is defined in Iterable, also apply for Map
 
 | Category  | Methods                                     |
 |-----------|---------------------------------------------|
@@ -65,70 +65,25 @@
 | Info      | `size`, `isEmpty`, `nonEmpty`, `min`, `max` |
 
 ---
-<h2 align="center">List</h2>
-<h3 align="center">A List is an ordered, linear sequence implemented as a singly linked list.</h3>
+1. **List:** A List is an ordered, linear sequence implemented as a singly linked list.
+   - **Slicing** → `take`, `drop`, `slice`, `splitAt`, `span`
+   - **Combination** → `zip`, `unzip`, `zipwithIndex`
+2. **Set:** A Set is a collection of unique elements that is optimized for fast membership testing.
+   - **Duplicate Insertion** → If duplicate is inserting, it will update previous (No Impact) 
+   - **Set Operations** → `union`, `intersect`, `diff`, `subsetof`
+3. **Map:** A Map is a collection of key-value pairs, keys in a map are always unique.
+   - **Inspection** →  `keys`, `keySet`, `values`
 
-| Category     | Important Methods                       |
-|--------------|-----------------------------------------|
-| **Creation** | `List()`, `Nil`, `from`                 |
-| **Adding**   | `::`, `+:`, `:+`, `patch`               |
-| **Updating** | `updated`                               |
-| **Reading**  | `apply`, `lift`, `head`, `last`, `tail` |
-| **Deleting** | `drop`                                  |
-
-#### List specific operation
-
-| Category        | Important Methods                          |
-|-----------------|--------------------------------------------|
-| **Slicing**     | `take`, `drop`, `slice`, `splitAt`, `span` |
-| **Combination** | `zip`, `unzip`, `zipwithIndex`             |
-
+- **Sorted Variant:** TreeList doesn't exist, use SortedSet or SortedMap for sorted behavior.
+- **Null Handling:** Sets and Maps cannot contain null keys (Sets can't contain null at all).
 ---
 
-<h2 align="center">Set</h2>
-<h3 align="center">A Set is a collection of unique elements that is optimized for fast membership testing.</h3>
-<h4 align="center">Duplicate elements will be updated, so no duplicate in set</h4>
+### Complete Methods Summary
 
-| Category     | Important Methods       |
-|--------------|-------------------------|
-| **Creation** | `List()`, `Nil`, `from` |
-| **Adding**   | `+`, `++`               |
-| **Updating** | No Method               |
-| **Reading**  | `apply`, `contains`     |
-| **Deleting** | `-`, `--`               |
-
-#### Set specific operation
-
-| Category         | Important Methods |
-|------------------|-------------------|
-| **Union**        | `union`           |
-| **Intersection** | `intersect`       |
-| **Difference**   | `diff`            |
-| **SubSet**       | `subsetof`        |
-
----
-<h2 align="center">Map</h2>
-<h3 align="center">A Map is a collection of key-value pairs, keys in a map are always unique.</h3>
-
-| Category       | Important Methods             |
-|----------------|-------------------------------|
-| **Creation**   | `Map()`, `empty`, `from`      |
-| **Adding**     | `+`, `++`                     |
-| **Updating**   | `+`, `++`                     |
-| **Reading**    | `apply`, `get`, `getOrElse`   |
-| **Deleting**   | `-`, `--`                     |
-
-#### Map specific operation
-
-| Category                | Important Methods           |
-|-------------------------|-----------------------------|
-| **Inspection**          | `keys`, `keySet`, `values`  |
-
-#### behave same like Iterable, Just treat tuple as single element and extract using case (key, value) ⇒ 
-**Iteration**  `foreach`, **Transformation**  `map`, `flatMap`, `collect`
-**Filtering** `filter`, `filterNot` **Searching** `find`, `exists`, `forall`,`contains`
-**Aggregation** `foldLeft`, `reduceLeft`  **Grouping** `groupBy`, `groupMap`
-**Info** `size`, `isEmpty`, `nonEmpty`
-
-
-
+| Category     | **List**                                              | **Set**                                                  | **Map**                                                                     |
+|--------------|-------------------------------------------------------|----------------------------------------------------------|-----------------------------------------------------------------------------|
+| **Creating** | `List()`, `Nil`, `List.from`                          | `Set()`, `Set.from`                                      | `Map()`, `Map.empty`, `Map.from`                                            |
+| **Adding**   | `::`, `+:`, `:+`, `patch`, `:::` (merge)              | `+` (add single), `++` (merge)                           | `+` (add single), `++` (merge)                                              |
+| **Updating** | `updated(index, value)`                               | No method                                                | `+`, `++`                                                                   |
+| **Reading**  | `apply(index)`, `lift(index)`, `head`, `last`, `tail` | `apply(element)` ✗ (throws error), `contains(element)` ✓ | `apply(key)` (throws error), `get(key)` (Option), `getOrElse(key, default)` |
+| **Deleting** | `drop(n)`                                             | `-` (remove single), `--` (remove multiple)              | `-` (remove key), `--` (remove multiple keys)                               |
