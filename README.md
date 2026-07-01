@@ -87,3 +87,7 @@
 | **Updating** | `updated(index, value)`                               | No method                                                | `+`, `++`                                                                   |
 | **Reading**  | `apply(index)`, `lift(index)`, `head`, `last`, `tail` | `apply(element)` ✗ (throws error), `contains(element)` ✓ | `apply(key)` (throws error), `get(key)` (Option), `getOrElse(key, default)` |
 | **Deleting** | `drop(n)`                                             | `-` (remove single), `--` (remove multiple)              | `-` (remove key), `--` (remove multiple keys)                               |
+
+---
+<h2 align="center">Sorting</h2>
+<p align="center"><img src="./src/main/resources/list_sortinng.png" alt="Tail Rec"></p>
