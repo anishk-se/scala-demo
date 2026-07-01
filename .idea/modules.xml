@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-problems/scala-problems.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-problems/scala-problems.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-problems/scala-problems.main.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-problems/scala-problems.main.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-problems/scala-problems.scala-problems-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-problems/scala-problems.scala-problems-build.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-problems/scala-problems.test.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-problems/scala-problems.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-demo/scala-demo.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-demo/scala-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-demo/scala-demo.main.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-demo/scala-demo.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-demo/scala-demo.scala-demo-build.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-demo/scala-demo.scala-demo-build.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/scala-demo/scala-demo.test.iml" filepath="$PROJECT_DIR$/.idea/modules/scala-demo/scala-demo.test.iml" />
     </modules>
   </component>
 </project>
