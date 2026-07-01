@@ -3,7 +3,7 @@ package com.anishk.ds.collections
 object MapHOF extends App {
 
   /*
-  1. Creation: Map()
+  1. Creation: Map(key -> value)
   - What does -> mean? This is just syntactic sugar for creating a tuple.
   - "Alice" -> 25 ====== ("Alice", 25)
    */
@@ -110,11 +110,5 @@ object MapHOF extends App {
   persons.foreach {
     case (name, age) => println(s"$name is $age years old")
   }
-
-  /*
-   Other methods for Map:
-   - Iteration, Transformation, Filtering, Searching, Aggregation
-   - Grouping behave same, Just treat (key, value) as tuple.
-   */
 
 }

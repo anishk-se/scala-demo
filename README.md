@@ -65,22 +65,70 @@
 | Info      | `size`, `isEmpty`, `nonEmpty`, `min`, `max` |
 
 ---
+<h2 align="center">List</h2>
+<h3 align="center">A List is an ordered, linear sequence implemented as a singly linked list.</h3>
+
+| Category     | Important Methods                       |
+|--------------|-----------------------------------------|
+| **Creation** | `List()`, `Nil`, `from`                 |
+| **Adding**   | `::`, `+:`, `:+`, `patch`               |
+| **Updating** | `updated`                               |
+| **Reading**  | `apply`, `lift`, `head`, `last`, `tail` |
+| **Deleting** | `drop`                                  |
+
+#### List specific operation
+
+| Category        | Important Methods                          |
+|-----------------|--------------------------------------------|
+| **Slicing**     | `take`, `drop`, `slice`, `splitAt`, `span` |
+| **Combination** | `zip`, `unzip`, `zipwithIndex`             |
+
+---
+
+<h2 align="center">Set</h2>
+<h3 align="center">A Set is a collection of unique elements that is optimized for fast membership testing.</h3>
+<h4 align="center">Duplicate elements will be updated, so no duplicate in set</h4>
+
+| Category     | Important Methods       |
+|--------------|-------------------------|
+| **Creation** | `List()`, `Nil`, `from` |
+| **Adding**   | `+`, `++`               |
+| **Updating** | No Method               |
+| **Reading**  | `apply`, `contains`     |
+| **Deleting** | `-`, `--`               |
+
+#### Set specific operation
+
+| Category         | Important Methods |
+|------------------|-------------------|
+| **Union**        | `union`           |
+| **Intersection** | `intersect`       |
+| **Difference**   | `diff`            |
+| **SubSet**       | `subsetof`        |
+
+---
 <h2 align="center">Map</h2>
 <h3 align="center">A Map is a collection of key-value pairs, keys in a map are always unique.</h3>
 
-| Category                | Important Methods                         |
-|-------------------------|-------------------------------------------|
-| **Creation**            | `Map()`, `empty`, `from`                  |
-| **Access**              | `apply`, `get`, `getOrElse`               |
-| **Inspection**          | `keys`, `keySet`, `values`                |
-| **Adding / Updating**   | `+`, `++`                                 |
-| **Removing / Ignoring** | `-`, `--`                                 |
-| **Iteration**           | `foreach`                                 |
-| **Transformation**      | `map`, `flatMap`, `collect`               |
-| **Filtering**           | `filter`, `filterNot`                     |
-| **Searching**           | `find`, `exists`, `forall`,`contains`     |
-| **Aggregation**         | `foldLeft`, `reduceLeft`                  |
-| **Grouping**            | `groupBy`, `groupMap`                     |
-| **Info**                | `size`, `isEmpty`, `nonEmpty`, `contains` |
+| Category       | Important Methods             |
+|----------------|-------------------------------|
+| **Creation**   | `Map()`, `empty`, `from`      |
+| **Adding**     | `+`, `++`                     |
+| **Updating**   | `+`, `++`                     |
+| **Reading**    | `apply`, `get`, `getOrElse`   |
+| **Deleting**   | `-`, `--`                     |
+
+#### Map specific operation
+
+| Category                | Important Methods           |
+|-------------------------|-----------------------------|
+| **Inspection**          | `keys`, `keySet`, `values`  |
+
+#### behave same like Iterable, Just treat tuple as single element and extract using case (key, value) ⇒ 
+**Iteration**  `foreach`, **Transformation**  `map`, `flatMap`, `collect`
+**Filtering** `filter`, `filterNot` **Searching** `find`, `exists`, `forall`,`contains`
+**Aggregation** `foldLeft`, `reduceLeft`  **Grouping** `groupBy`, `groupMap`
+**Info** `size`, `isEmpty`, `nonEmpty`
+
 
 
