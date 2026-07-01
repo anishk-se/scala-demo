@@ -1,4 +1,4 @@
-package com.scala.demo.special
+package com.scala.demo.wrapper
 
 /*
  An Option is a wrapper for value that might be present or not.
@@ -43,7 +43,7 @@ object Options extends App {
   /*
   5. map, flatMap, filter
   - If the Option contains a value (Some), apply the function and wrap the result back in Some.
-  - If it is None, do nothing.
+  - If it is None, do nothing and return None.
    */
   val noneMapResult = mayBeNone(true).map(ele => ele.toUpperCase)
   println(noneMapResult) // None
