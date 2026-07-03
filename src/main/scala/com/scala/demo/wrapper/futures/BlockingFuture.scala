@@ -1,8 +1,8 @@
-package com.scala.demo.wrapper
+package com.scala.demo.wrapper.futures
 
-import scala.concurrent.{Await, Future}
 import scala.concurrent.ExecutionContext.Implicits.global
 import scala.concurrent.duration._
+import scala.concurrent.{Await, Future}
 
 object BlockingFuture extends App {
 

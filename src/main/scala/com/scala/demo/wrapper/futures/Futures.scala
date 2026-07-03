@@ -1,8 +1,4 @@
-package com.scala.demo.wrapper
-
-import scala.concurrent.Future
-import scala.util.{Failure, Success}
-import scala.concurrent.ExecutionContext.Implicits.global
+package com.scala.demo.wrapper.futures
 
 /*
  - A Future is a wrapper for asynchronous computation that will complete with either a successful result
