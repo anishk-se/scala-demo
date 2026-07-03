@@ -8,58 +8,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78b6e47f-1733-4b55-a6fb-a1ad50515fb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part1recap/AdvancedRecap.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part1recap/GeneralRecap.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part1recap/ThreadModelLimitation.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part1recap/ThreadingRecap.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part2actors/ActorCapabilities.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part2actors/ActorsIntro.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part2actors/ChangingActorBehaviour.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part2actors/ChildActors.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part6patterns/StashDemo.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/playground/ActorCapabilitiesEx.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/playground/CounterEx.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/playground/Playground.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/playground/VotingSystemEx.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/collections/IterableHOF.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/collections/ListHOF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/collections/ListHOF.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/collections/MapHOF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/collections/MapHOF.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/collections/SetHOF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/collections/SetHOF.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/collections/SortingHOF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/collections/SortingHOF.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/numbers/ApproximatePi.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/numbers/Duplicates.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/numbers/LargestNumber.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/numbers/ParseInteger.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/numbers/RecurringDecimals.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/numbers/ReverseInteger.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/numbers/UglyNumber.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/oops/CaseClasses.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/oops/CaseClasses.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/oops/Exceptions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/oops/Exceptions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/oops/Packaging.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/oops/Packaging.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/patterns/AllPatterns.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/patterns/AllPatterns.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/patterns/BasicPattern.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/patterns/BasicPattern.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/playground/numbers/CheckPrime.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/playground/numbers/DecomposePrime.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/playground/numbers/DecomposePrime.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/playground/numbers/InsertionSort.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/playground/numbers/InsertionSort.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/playground/numbers/LargestNumber.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/playground/numbers/LargestNumber.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/playground/numbers/PlayGround.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/strings/Anagrams.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/Anagrams.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/strings/CompareVersionNumbers.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/CompareVersionNumbers.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/strings/CountCharacters.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/CountCharacters.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/strings/Justify.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/Justify.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/strings/MultiplyStrings.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/MultiplyStrings.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/strings/ParenthesisProblems.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/ParenthesisProblems.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/strings/RansomNote.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/RansomNote.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/strings/ReorganizeString.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/ReorganizeString.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/strings/ReverseWords.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/ReverseWords.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/wrapper/HandlingFailures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/HandlingFailures.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/wrapper/Options.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/Options.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/wrapper/futures/BlockingFuture.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/futures/BlockingFuture.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/wrapper/futures/FutureEx.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/futures/FutureEx.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/wrapper/futures/Futures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/futures/Futures.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/wrapper/futures/PromiseApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/futures/PromiseApp.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/patterns/SyntaxSugars.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,12 +37,12 @@
     &quot;assignee&quot;: &quot;anishk-se&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/anishk-se/scala-problems.git&quot;,
-    &quot;accountId&quot;: &quot;d6fd725a-e478-4550-b7d0-8cf5c2a1afd3&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/anishk-se/scala-essentials.git",
+    "accountId": "d6fd725a-e478-4550-b7d0-8cf5c2a1afd3"
   }
-}</component>
+}]]></component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -285,7 +235,7 @@
       <workItem from="1782962005448" duration="19275000" />
       <workItem from="1783075642101" duration="48000" />
       <workItem from="1783075793304" duration="786000" />
-      <workItem from="1783076683323" duration="403000" />
+      <workItem from="1783076683323" duration="5571000" />
     </task>
     <servers />
   </component>
