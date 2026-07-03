@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ScalaCompilerConfiguration">
+    <option name="separateProdTestSources" value="true" />
+    <profile name="sbt 1" modules="scala-demo,scala-demo.main,scala-demo.test,scala-essentials,scala-essentials.main,scala-essentials.test,scala-problems,scala-problems-interviews,scala-problems.main,scala-problems.test" />
+  </component>
+</project>

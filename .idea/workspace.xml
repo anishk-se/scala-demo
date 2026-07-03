@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BackgroundAgentGlobalSettings">
+    <option name="selectedModelId" value="auto" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="78b6e47f-1733-4b55-a6fb-a1ad50515fb7" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part1recap/AdvancedRecap.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part1recap/GeneralRecap.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part1recap/ThreadModelLimitation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part1recap/ThreadingRecap.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part2actors/ActorCapabilities.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part2actors/ActorsIntro.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part2actors/ChangingActorBehaviour.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part2actors/ChildActors.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part6patterns/StashDemo.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/playground/ActorCapabilitiesEx.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/playground/CounterEx.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/playground/Playground.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/playground/VotingSystemEx.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.sbt" beforeDir="false" afterPath="$PROJECT_DIR$/build.sbt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/collections/IterableHOF.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/collections/ListHOF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/collections/ListHOF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/collections/MapHOF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/collections/MapHOF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/collections/SetHOF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/collections/SetHOF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/collections/SortingHOF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/collections/SortingHOF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/numbers/ApproximatePi.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/numbers/Duplicates.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/numbers/LargestNumber.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/numbers/ParseInteger.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/numbers/RecurringDecimals.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/numbers/ReverseInteger.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/numbers/UglyNumber.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/oops/CaseClasses.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/oops/CaseClasses.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/oops/Exceptions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/oops/Exceptions.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/oops/Packaging.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/oops/Packaging.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/patterns/AllPatterns.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/patterns/AllPatterns.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/patterns/BasicPattern.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/patterns/BasicPattern.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/playground/numbers/CheckPrime.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/playground/numbers/DecomposePrime.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/playground/numbers/DecomposePrime.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/playground/numbers/InsertionSort.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/playground/numbers/InsertionSort.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/playground/numbers/LargestNumber.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/playground/numbers/LargestNumber.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/playground/numbers/PlayGround.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/strings/Anagrams.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/Anagrams.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/strings/CompareVersionNumbers.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/CompareVersionNumbers.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/strings/CountCharacters.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/CountCharacters.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/strings/Justify.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/Justify.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/strings/MultiplyStrings.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/MultiplyStrings.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/strings/ParenthesisProblems.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/ParenthesisProblems.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/strings/RansomNote.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/RansomNote.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/strings/ReorganizeString.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/ReorganizeString.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/strings/ReverseWords.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/ReverseWords.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/wrapper/HandlingFailures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/HandlingFailures.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/wrapper/Options.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/Options.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/wrapper/futures/BlockingFuture.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/futures/BlockingFuture.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/wrapper/futures/FutureEx.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/futures/FutureEx.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/wrapper/futures/Futures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/futures/Futures.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/com/scala/demo/wrapper/futures/PromiseApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/futures/PromiseApp.scala" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CopilotPersistence">
+    <persistenceIdMap>
+      <entry key="_/home/anish/Play_Ground/scala-demo" value="3FtoWC8QxYHNp6DpN19Ui8GdYHc" />
+      <entry key="_/home/anish/Play_Ground/scala-essentials" value="3FzRD67LCAK1ehUFS18Dd4t2HHX" />
+      <entry key="_/home/anish/Play_Ground/scala-problems" value="3Fj9sv0naXy8WHjDFqgDbQZSQit" />
+    </persistenceIdMap>
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;anishk-se&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/anishk-se/scala-problems.git&quot;,
+    &quot;accountId&quot;: &quot;d6fd725a-e478-4550-b7d0-8cf5c2a1afd3&quot;
+  }
+}</component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1,
+  &quot;fromUser&quot;: false
+}</component>
+  <component name="ProjectId" id="3Fj9sv0naXy8WHjDFqgDbQZSQit" />
+  <component name="ProjectSessionTemplates">
+    <option name="panelTemplate">
+      <template>
+        <option name="modeId" value="Agent" />
+        <option name="model">
+          <model>
+            <option name="modelType" value="builtin_id" />
+            <option name="modelValue" value="auto" />
+          </model>
+        </option>
+        <option name="targetType" value="LOCAL" />
+      </template>
+    </option>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ActorsIntro.executor": "Run",
+    "Application.AllPatterns.executor": "Run",
+    "Application.ApproximatePi.executor": "Run",
+    "Application.BlockingFuture.executor": "Run",
+    "Application.CaseClassesEx.executor": "Run",
+    "Application.CheckPrime.executor": "Run",
+    "Application.DecomposePrime.executor": "Run",
+    "Application.Exceptions.executor": "Run",
+    "Application.Futures.executor": "Run",
+    "Application.HandlingFailures.executor": "Run",
+    "Application.IterableHOF.executor": "Run",
+    "Application.LargestNumber.executor": "Run",
+    "Application.ListHOF.executor": "Run",
+    "Application.MapHOF.executor": "Run",
+    "Application.Options.executor": "Run",
+    "Application.PatternMatching.executor": "Run",
+    "Application.Playground.executor": "Run",
+    "Application.Promise.executor": "Run",
+    "Application.PromiseApp.executor": "Run",
+    "Application.RecursionDemo.executor": "Run",
+    "Application.SetHOF.executor": "Run",
+    "Application.SortingHOF.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "copilot.chat.legacySessionMetadata.migrated": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/anish/Play_Ground/scala-essentials/src/main/scala/akka/udemy/learn",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala/akka/udemy/learn" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/scala/com/udemy/learn/numbers" />
+      <recent name="$PROJECT_DIR$/src/main/scala/com/scala/demo/wrapper/futures" />
+      <recent name="$PROJECT_DIR$/src/main/resources" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ActorsIntro">
+    <configuration name="ActorsIntro" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="akka.udemy.learn.part2actors.ActorsIntro" />
+      <module name="scala-essentials.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="akka.udemy.learn.part2actors.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlockingFuture" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.scala.demo.wrapper.BlockingFuture" />
+      <module name="scala-demo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scala.basics.wrapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Futures" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.scala.demo.wrapper.Futures" />
+      <module name="scala-demo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scala.basics.wrapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Promise" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.scala.demo.wrapper.Promise" />
+      <module name="scala-demo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scala.basics.wrapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PromiseApp" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.scala.demo.wrapper.PromiseApp" />
+      <module name="scala-demo.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.scala.basics.wrapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="scala-problems-interviews-build" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="scala-problems-interviews-build" />
+      <option name="filePath" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ActorsIntro" />
+        <item itemvalue="Application.PromiseApp" />
+        <item itemvalue="Application.Promise" />
+        <item itemvalue="Application.BlockingFuture" />
+        <item itemvalue="Application.Futures" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ScalaProjectSettings">
+    <option name="migrateConfigurationsNotificationShown" value="true" />
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="78b6e47f-1733-4b55-a6fb-a1ad50515fb7" name="Changes" comment="" />
+      <created>1782577821628</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1782577821628</updated>
+      <workItem from="1782577822952" duration="1823000" />
+      <workItem from="1782620214114" duration="17763000" />
+      <workItem from="1782738847736" duration="9164000" />
+      <workItem from="1782792969716" duration="20480000" />
+      <workItem from="1782828499046" duration="6380000" />
+      <workItem from="1782875708041" duration="15638000" />
+      <workItem from="1782903761600" duration="18304000" />
+      <workItem from="1782962005448" duration="19275000" />
+      <workItem from="1783075642101" duration="48000" />
+      <workItem from="1783075793304" duration="786000" />
+      <workItem from="1783076683323" duration="403000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
