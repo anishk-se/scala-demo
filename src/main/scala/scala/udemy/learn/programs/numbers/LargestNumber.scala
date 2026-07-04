@@ -1,4 +1,4 @@
-package scala.udemy.learn.playground.numbers
+package scala.udemy.learn.programs.numbers
 
 import scala.annotation.tailrec
 

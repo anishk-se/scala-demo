@@ -8,8 +8,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78b6e47f-1733-4b55-a6fb-a1ad50515fb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/patterns/AdvancePattern.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Introduction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Organizing.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/TypeClasses.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/numbers/ApproximatePi.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/numbers/Duplicates.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/numbers/LargestNumber.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/numbers/ParseInteger.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/numbers/RecurringDecimals.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/numbers/ReverseInteger.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/numbers/UglyNumber.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/playground/numbers/DecomposePrime.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/programs/numbers/DecomposePrime.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/playground/numbers/InsertionSort.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/programs/numbers/InsertionSort.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/playground/numbers/LargestNumber.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/programs/numbers/LargestNumber.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/Anagrams.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/CompareVersionNumbers.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/CountCharacters.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/Justify.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/MultiplyStrings.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/ParenthesisProblems.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/RansomNote.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/ReorganizeString.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/ReverseWords.scala" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,12 +58,12 @@
     &quot;assignee&quot;: &quot;anishk-se&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/anishk-se/scala-essentials.git",
-    "accountId": "d6fd725a-e478-4550-b7d0-8cf5c2a1afd3"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/anishk-se/scala-essentials.git&quot;,
+    &quot;accountId&quot;: &quot;d6fd725a-e478-4550-b7d0-8cf5c2a1afd3&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -82,11 +103,13 @@
     "Application.Exceptions.executor": "Run",
     "Application.Futures.executor": "Run",
     "Application.HandlingFailures.executor": "Run",
+    "Application.Introduction.executor": "Run",
     "Application.IterableHOF.executor": "Run",
     "Application.LargestNumber.executor": "Run",
     "Application.ListHOF.executor": "Run",
     "Application.MapHOF.executor": "Run",
     "Application.Options.executor": "Run",
+    "Application.Organizing.executor": "Run",
     "Application.PatternMatching.executor": "Run",
     "Application.Playground.executor": "Run",
     "Application.Promise.executor": "Run",
@@ -94,6 +117,7 @@
     "Application.RecursionDemo.executor": "Run",
     "Application.SetHOF.executor": "Run",
     "Application.SortingHOF.executor": "Run",
+    "Application.TypeClasses.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -103,7 +127,7 @@
     "copilot.chat.legacySessionMetadata.migrated": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/anish/Play_Ground/scala-essentials/src/main/scala/akka/udemy/learn",
+    "last_opened_file_path": "/home/anish/Play_Ground/scala-essentials",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -122,7 +146,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AdvancePattern">
+  <component name="RunManager" selected="Application.TypeClasses">
     <configuration name="ActorsIntro" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="akka.udemy.learn.part2actors.ActorsIntro" />
       <module name="scala-essentials.main" />
@@ -149,12 +173,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="BlockingFuture" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.scala.demo.wrapper.BlockingFuture" />
-      <module name="scala-demo.main" />
+    <configuration name="Introduction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.Introduction" />
+      <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scala.basics.wrapper.*" />
+          <option name="PATTERN" value="scala.udemy.learn.implicits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -162,12 +186,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Promise" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.scala.demo.wrapper.Promise" />
-      <module name="scala-demo.main" />
+    <configuration name="Organizing" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.Organizing" />
+      <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scala.basics.wrapper.*" />
+          <option name="PATTERN" value="scala.udemy.learn.implicits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PromiseApp" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.scala.demo.wrapper.PromiseApp" />
-      <module name="scala-demo.main" />
+    <configuration name="TypeClasses" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.TypeClasses" />
+      <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.scala.basics.wrapper.*" />
+          <option name="PATTERN" value="scala.udemy.learn.implicits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -201,11 +225,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TypeClasses" />
+        <item itemvalue="Application.Organizing" />
+        <item itemvalue="Application.Introduction" />
         <item itemvalue="Application.AdvancePattern" />
         <item itemvalue="Application.ActorsIntro" />
-        <item itemvalue="Application.PromiseApp" />
-        <item itemvalue="Application.Promise" />
-        <item itemvalue="Application.BlockingFuture" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +260,8 @@
       <workItem from="1782962005448" duration="19275000" />
       <workItem from="1783075642101" duration="48000" />
       <workItem from="1783075793304" duration="786000" />
-      <workItem from="1783076683323" duration="8033000" />
+      <workItem from="1783076683323" duration="8277000" />
+      <workItem from="1783133392504" duration="13826000" />
     </task>
     <servers />
   </component>
