@@ -36,7 +36,7 @@ object TypeClasses extends App {
 
   /*
   2. A TYPE CLASS: HTMlSerializer[T]
-  - specifies a set of operation in this case serialize
+  - specifies a set of operation -  in this case serialize
   - That can be applied to a given type T.
   - Anyone who extends HTMlSerializer need to provide this functionality.
   - All the implementers of TYPE CLASS are called TYPE CLASS INSTANCE.

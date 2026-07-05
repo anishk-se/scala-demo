@@ -8,29 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78b6e47f-1733-4b55-a6fb-a1ad50515fb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Introduction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Organizing.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/TypeClasses.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Convenience.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/PimpMyLib.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Summoner.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/numbers/ApproximatePi.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/numbers/Duplicates.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/numbers/LargestNumber.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/numbers/ParseInteger.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/numbers/RecurringDecimals.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/numbers/ReverseInteger.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/numbers/UglyNumber.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/playground/numbers/DecomposePrime.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/programs/numbers/DecomposePrime.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/playground/numbers/InsertionSort.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/programs/numbers/InsertionSort.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/playground/numbers/LargestNumber.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/programs/numbers/LargestNumber.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/Anagrams.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/CompareVersionNumbers.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/CountCharacters.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/Justify.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/MultiplyStrings.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/ParenthesisProblems.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/RansomNote.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/ReorganizeString.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/strings/ReverseWords.scala" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/TypeClasses.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/TypeClasses.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,10 +78,12 @@
     "Application.AdvancePattern.executor": "Run",
     "Application.AllPatterns.executor": "Run",
     "Application.ApproximatePi.executor": "Run",
+    "Application.BetterTypeClass.executor": "Run",
     "Application.BlockingFuture.executor": "Run",
     "Application.CaseClassesEx.executor": "Run",
     "Application.CheckPrime.executor": "Run",
     "Application.DecomposePrime.executor": "Run",
+    "Application.EqualityEx.executor": "Run",
     "Application.Exceptions.executor": "Run",
     "Application.Futures.executor": "Run",
     "Application.HandlingFailures.executor": "Run",
@@ -111,6 +95,7 @@
     "Application.Options.executor": "Run",
     "Application.Organizing.executor": "Run",
     "Application.PatternMatching.executor": "Run",
+    "Application.PimpMyLib.executor": "Run",
     "Application.Playground.executor": "Run",
     "Application.Promise.executor": "Run",
     "Application.PromiseApp.executor": "Run",
@@ -146,13 +131,13 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TypeClasses">
-    <configuration name="ActorsIntro" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="akka.udemy.learn.part2actors.ActorsIntro" />
+  <component name="RunManager" selected="Application.PimpMyLib">
+    <configuration name="BetterTypeClass" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.BetterTypeClass" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="akka.udemy.learn.part2actors.*" />
+          <option name="PATTERN" value="scala.udemy.learn.implicits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -160,21 +145,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AdvancePattern" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.patterns.AdvancePattern" />
-      <module name="scala-essentials.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.patterns.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Introduction" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.Introduction" />
+    <configuration name="EqualityEx" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.EqualityEx" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
@@ -188,6 +160,19 @@
     </configuration>
     <configuration name="Organizing" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.Organizing" />
+      <module name="scala-essentials.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scala.udemy.learn.implicits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PimpMyLib" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.PimpMyLib" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
@@ -225,11 +210,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.PimpMyLib" />
+        <item itemvalue="Application.EqualityEx" />
+        <item itemvalue="Application.BetterTypeClass" />
         <item itemvalue="Application.TypeClasses" />
         <item itemvalue="Application.Organizing" />
-        <item itemvalue="Application.Introduction" />
-        <item itemvalue="Application.AdvancePattern" />
-        <item itemvalue="Application.ActorsIntro" />
       </list>
     </recent_temporary>
   </component>
@@ -261,7 +246,8 @@
       <workItem from="1783075642101" duration="48000" />
       <workItem from="1783075793304" duration="786000" />
       <workItem from="1783076683323" duration="8277000" />
-      <workItem from="1783133392504" duration="13826000" />
+      <workItem from="1783133392504" duration="14524000" />
+      <workItem from="1783220277004" duration="10107000" />
     </task>
     <servers />
   </component>
