@@ -8,11 +8,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78b6e47f-1733-4b55-a6fb-a1ad50515fb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Convenience.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/PimpMyLib.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Summoner.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/EqualEnrichment.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/HtmlEnrichment.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Implicitly.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/TypeClasses.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/TypeClasses.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,10 +82,14 @@
     "Application.CaseClassesEx.executor": "Run",
     "Application.CheckPrime.executor": "Run",
     "Application.DecomposePrime.executor": "Run",
+    "Application.EqualEnrichment.executor": "Run",
     "Application.EqualityEx.executor": "Run",
     "Application.Exceptions.executor": "Run",
     "Application.Futures.executor": "Run",
     "Application.HandlingFailures.executor": "Run",
+    "Application.HtmlEnrichment.executor": "Run",
+    "Application.HtmlSerializer.executor": "Run",
+    "Application.Implicitly.executor": "Run",
     "Application.Introduction.executor": "Run",
     "Application.IterableHOF.executor": "Run",
     "Application.LargestNumber.executor": "Run",
@@ -131,9 +134,9 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PimpMyLib">
-    <configuration name="BetterTypeClass" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.BetterTypeClass" />
+  <component name="RunManager" selected="Application.Implicitly">
+    <configuration name="EqualEnrichment" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.EqualEnrichment" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
@@ -145,8 +148,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualityEx" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.EqualityEx" />
+    <configuration name="HtmlEnrichment" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.HtmlEnrichment" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
@@ -158,8 +161,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Organizing" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.Organizing" />
+    <configuration name="HtmlSerializer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.HtmlSerializer" />
+      <module name="scala-essentials.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scala.udemy.learn.implicits.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Implicitly" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.Implicitly" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
@@ -184,19 +200,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TypeClasses" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.TypeClasses" />
-      <module name="scala-essentials.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.implicits.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="scala-problems-interviews-build" />
       <method v="2">
@@ -210,11 +213,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Implicitly" />
+        <item itemvalue="Application.EqualEnrichment" />
+        <item itemvalue="Application.HtmlEnrichment" />
+        <item itemvalue="Application.HtmlSerializer" />
         <item itemvalue="Application.PimpMyLib" />
-        <item itemvalue="Application.EqualityEx" />
-        <item itemvalue="Application.BetterTypeClass" />
-        <item itemvalue="Application.TypeClasses" />
-        <item itemvalue="Application.Organizing" />
       </list>
     </recent_temporary>
   </component>
@@ -247,7 +250,7 @@
       <workItem from="1783075793304" duration="786000" />
       <workItem from="1783076683323" duration="8277000" />
       <workItem from="1783133392504" duration="14524000" />
-      <workItem from="1783220277004" duration="10107000" />
+      <workItem from="1783220277004" duration="13688000" />
     </task>
     <servers />
   </component>
