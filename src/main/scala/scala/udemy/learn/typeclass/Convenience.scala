@@ -1,4 +1,4 @@
-package scala.udemy.learn.implicits
+package scala.udemy.learn.typeclass
 
 object Convenience extends App {
 

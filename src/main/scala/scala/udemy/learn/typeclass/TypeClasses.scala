@@ -1,4 +1,4 @@
-package scala.udemy.learn.implicits
+package scala.udemy.learn.typeclass
 
 /*
  A type class is a design pattern that allows you to add behavior to existing types without modifying

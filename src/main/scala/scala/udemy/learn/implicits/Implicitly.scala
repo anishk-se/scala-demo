@@ -1,6 +1,6 @@
 package scala.udemy.learn.implicits
 
-import scala.udemy.learn.implicits.HtmlEnrichment._
+import scala.udemy.learn.typeclass.HtmlEnrichment._
 
 /*
  - implicitly[T] asks the compiler to find and return the implicit value of type T from the current

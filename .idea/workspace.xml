@@ -8,10 +8,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78b6e47f-1733-4b55-a6fb-a1ad50515fb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/EqualEnrichment.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/HtmlEnrichment.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Implicitly.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/typeclass/JsonSerializer.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Convenience.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/typeclass/Convenience.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/EqualEnrichment.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/typeclass/EqualEnrichment.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/HtmlEnrichment.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/typeclass/HtmlEnrichment.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Implicitly.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Implicitly.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Summoner.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/typeclass/Summoner.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/TypeClasses.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/typeclass/TypeClasses.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,6 +49,10 @@
     &quot;accountId&quot;: &quot;d6fd725a-e478-4550-b7d0-8cf5c2a1afd3&quot;
   }
 }</component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -92,6 +100,7 @@
     "Application.Implicitly.executor": "Run",
     "Application.Introduction.executor": "Run",
     "Application.IterableHOF.executor": "Run",
+    "Application.JsonSerializer.executor": "Run",
     "Application.LargestNumber.executor": "Run",
     "Application.ListHOF.executor": "Run",
     "Application.MapHOF.executor": "Run",
@@ -134,13 +143,13 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Implicitly">
+  <component name="RunManager" selected="Application.JsonSerializer">
     <configuration name="EqualEnrichment" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.EqualEnrichment" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.implicits.*" />
+          <option name="PATTERN" value="scala.udemy.learn.typeclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -153,7 +162,7 @@
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.implicits.*" />
+          <option name="PATTERN" value="scala.udemy.learn.typeclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,12 +196,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PimpMyLib" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.PimpMyLib" />
+    <configuration name="JsonSerializer" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.typeclass.JsonSerializer" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.implicits.*" />
+          <option name="PATTERN" value="scala.udemy.learn.typeclass.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -213,11 +222,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JsonSerializer" />
         <item itemvalue="Application.Implicitly" />
         <item itemvalue="Application.EqualEnrichment" />
         <item itemvalue="Application.HtmlEnrichment" />
         <item itemvalue="Application.HtmlSerializer" />
-        <item itemvalue="Application.PimpMyLib" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +259,8 @@
       <workItem from="1783075793304" duration="786000" />
       <workItem from="1783076683323" duration="8277000" />
       <workItem from="1783133392504" duration="14524000" />
-      <workItem from="1783220277004" duration="13688000" />
+      <workItem from="1783220277004" duration="14771000" />
+      <workItem from="1783306789117" duration="4082000" />
     </task>
     <servers />
   </component>
