@@ -8,10 +8,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78b6e47f-1733-4b55-a6fb-a1ad50515fb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/generics/Basics.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/generics/CoVariance.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/generics/ContraVariance.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/generics/InVariance.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/oops/AnonymousClass.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +78,7 @@
     "Application.ActorsIntro.executor": "Run",
     "Application.AdvancePattern.executor": "Run",
     "Application.AllPatterns.executor": "Run",
+    "Application.AnonymousClass.executor": "Run",
     "Application.ApproximatePi.executor": "Run",
     "Application.BetterTypeClass.executor": "Run",
     "Application.BlockingFuture.executor": "Run",
@@ -142,13 +140,13 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CoVariance">
-    <configuration name="CoVariance" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.generics.CoVariance" />
+  <component name="RunManager" selected="Application.AnonymousClass">
+    <configuration name="AnonymousClass" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.oops.AnonymousClass" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.generics.*" />
+          <option name="PATTERN" value="scala.udemy.learn.oops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -156,12 +154,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EqualEnrichment" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.EqualEnrichment" />
+    <configuration name="CoVariance" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.generics.CoVariance" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.typeclass.*" />
+          <option name="PATTERN" value="scala.udemy.learn.generics.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -221,11 +219,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.AnonymousClass" />
         <item itemvalue="Application.CoVariance" />
         <item itemvalue="Application.Variance" />
         <item itemvalue="Application.JsonSerializer" />
         <item itemvalue="Application.Implicitly" />
-        <item itemvalue="Application.EqualEnrichment" />
       </list>
     </recent_temporary>
   </component>
@@ -262,7 +260,7 @@
       <workItem from="1783220277004" duration="14771000" />
       <workItem from="1783306789117" duration="4082000" />
       <workItem from="1783342461254" duration="13000" />
-      <workItem from="1783396429153" duration="4156000" />
+      <workItem from="1783396429153" duration="5772000" />
     </task>
     <servers />
   </component>
