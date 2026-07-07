@@ -8,14 +8,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78b6e47f-1733-4b55-a6fb-a1ad50515fb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/typeclass/JsonSerializer.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/generics/Basics.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/generics/CoVariance.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/generics/ContraVariance.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/generics/InVariance.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Convenience.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/typeclass/Convenience.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/EqualEnrichment.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/typeclass/EqualEnrichment.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/HtmlEnrichment.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/typeclass/HtmlEnrichment.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Implicitly.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Implicitly.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Summoner.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/typeclass/Summoner.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/TypeClasses.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/typeclass/TypeClasses.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,10 +46,10 @@
     &quot;accountId&quot;: &quot;d6fd725a-e478-4550-b7d0-8cf5c2a1afd3&quot;
   }
 }</component>
-  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
-  <component name="KubernetesApiProvider"><![CDATA[{
-  "isMigrated": true
-}]]></component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
   <component name="ProjectCodeStyleSettingsMigration">
     <option name="version" value="2" />
   </component>
@@ -89,6 +86,7 @@
     "Application.BlockingFuture.executor": "Run",
     "Application.CaseClassesEx.executor": "Run",
     "Application.CheckPrime.executor": "Run",
+    "Application.CoVariance.executor": "Run",
     "Application.DecomposePrime.executor": "Run",
     "Application.EqualEnrichment.executor": "Run",
     "Application.EqualityEx.executor": "Run",
@@ -115,6 +113,7 @@
     "Application.SetHOF.executor": "Run",
     "Application.SortingHOF.executor": "Run",
     "Application.TypeClasses.executor": "Run",
+    "Application.Variance.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -143,39 +142,26 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.JsonSerializer">
+  <component name="RunManager" selected="Application.CoVariance">
+    <configuration name="CoVariance" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.generics.CoVariance" />
+      <module name="scala-essentials.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scala.udemy.learn.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="EqualEnrichment" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.EqualEnrichment" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="scala.udemy.learn.typeclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HtmlEnrichment" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.HtmlEnrichment" />
-      <module name="scala-essentials.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.typeclass.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="HtmlSerializer" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.HtmlSerializer" />
-      <module name="scala-essentials.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.implicits.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,6 +195,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Variance" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.generics.Variance" />
+      <module name="scala-essentials.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scala.udemy.learn.generics.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="scala-problems-interviews-build" />
       <method v="2">
@@ -222,11 +221,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CoVariance" />
+        <item itemvalue="Application.Variance" />
         <item itemvalue="Application.JsonSerializer" />
         <item itemvalue="Application.Implicitly" />
         <item itemvalue="Application.EqualEnrichment" />
-        <item itemvalue="Application.HtmlEnrichment" />
-        <item itemvalue="Application.HtmlSerializer" />
       </list>
     </recent_temporary>
   </component>
@@ -236,7 +235,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.25134.95" />
+        <option value="bundled-jdk-30f59d01ecdd-37e91769500f-intellij.indexing.shared.core-IU-261.26222.65" />
+        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-IU-261.26222.65" />
       </set>
     </attachedChunks>
   </component>
@@ -261,6 +261,8 @@
       <workItem from="1783133392504" duration="14524000" />
       <workItem from="1783220277004" duration="14771000" />
       <workItem from="1783306789117" duration="4082000" />
+      <workItem from="1783342461254" duration="13000" />
+      <workItem from="1783396429153" duration="4156000" />
     </task>
     <servers />
   </component>
