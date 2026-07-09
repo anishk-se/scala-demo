@@ -1,4 +1,4 @@
-package scala.udemy.learn.oops
+package scala.udemy.learn.objects
 
 /*
  often for light-weight classes, we need ti implement all boilerplate,

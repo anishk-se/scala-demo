@@ -8,8 +8,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78b6e47f-1733-4b55-a6fb-a1ad50515fb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/oops/AnonymousClass.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/AnonymousFunc.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/CurriesFunc.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/ToCurryFunc.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/WhatAFunc.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/oops/AnonymousClass.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/AnonymousClass.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/oops/CaseClasses.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/CaseClasses.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/oops/Exceptions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/Exceptions.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/oops/Packaging.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/Packaging.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/oops/SyntaxSugars.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/SyntaxSugars.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,12 +87,14 @@
     "Application.AdvancePattern.executor": "Run",
     "Application.AllPatterns.executor": "Run",
     "Application.AnonymousClass.executor": "Run",
+    "Application.AnonymousFunc.executor": "Run",
     "Application.ApproximatePi.executor": "Run",
     "Application.BetterTypeClass.executor": "Run",
     "Application.BlockingFuture.executor": "Run",
     "Application.CaseClassesEx.executor": "Run",
     "Application.CheckPrime.executor": "Run",
     "Application.CoVariance.executor": "Run",
+    "Application.CurriesFunc.executor": "Run",
     "Application.DecomposePrime.executor": "Run",
     "Application.EqualEnrichment.executor": "Run",
     "Application.EqualityEx.executor": "Run",
@@ -110,8 +120,10 @@
     "Application.RecursionDemo.executor": "Run",
     "Application.SetHOF.executor": "Run",
     "Application.SortingHOF.executor": "Run",
+    "Application.ToCurryFunc.executor": "Run",
     "Application.TypeClasses.executor": "Run",
     "Application.Variance.executor": "Run",
+    "Application.WhatAFunc.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -140,13 +152,13 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AnonymousClass">
+  <component name="RunManager" selected="Application.ToCurryFunc">
     <configuration name="AnonymousClass" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.oops.AnonymousClass" />
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.objects.AnonymousClass" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.oops.*" />
+          <option name="PATTERN" value="scala.udemy.learn.objects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -154,12 +166,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CoVariance" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.generics.CoVariance" />
+    <configuration name="AnonymousFunc" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.functions.AnonymousFunc" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.generics.*" />
+          <option name="PATTERN" value="scala.udemy.learn.functions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -167,12 +179,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Implicitly" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.implicits.Implicitly" />
+    <configuration name="CurriesFunc" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.functions.CurriesFunc" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.implicits.*" />
+          <option name="PATTERN" value="scala.udemy.learn.functions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -180,12 +192,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="JsonSerializer" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.typeclass.JsonSerializer" />
+    <configuration name="ToCurryFunc" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.functions.ToCurryFunc" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.typeclass.*" />
+          <option name="PATTERN" value="scala.udemy.learn.functions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -193,12 +205,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Variance" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.generics.Variance" />
+    <configuration name="WhatAFunc" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.functions.WhatAFunc" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.generics.*" />
+          <option name="PATTERN" value="scala.udemy.learn.functions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -219,11 +231,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ToCurryFunc" />
+        <item itemvalue="Application.CurriesFunc" />
+        <item itemvalue="Application.AnonymousFunc" />
+        <item itemvalue="Application.WhatAFunc" />
         <item itemvalue="Application.AnonymousClass" />
-        <item itemvalue="Application.CoVariance" />
-        <item itemvalue="Application.Variance" />
-        <item itemvalue="Application.JsonSerializer" />
-        <item itemvalue="Application.Implicitly" />
       </list>
     </recent_temporary>
   </component>
@@ -260,7 +272,11 @@
       <workItem from="1783220277004" duration="14771000" />
       <workItem from="1783306789117" duration="4082000" />
       <workItem from="1783342461254" duration="13000" />
-      <workItem from="1783396429153" duration="5772000" />
+      <workItem from="1783396429153" duration="6561000" />
+      <workItem from="1783481530567" duration="6077000" />
+      <workItem from="1783494938401" duration="2503000" />
+      <workItem from="1783509163510" duration="1431000" />
+      <workItem from="1783566997794" duration="7643000" />
     </task>
     <servers />
   </component>

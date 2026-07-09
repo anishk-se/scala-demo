@@ -1,4 +1,4 @@
-package scala.udemy.learn.oops
+package scala.udemy.learn.objects
 
 object Packaging extends App {
 
