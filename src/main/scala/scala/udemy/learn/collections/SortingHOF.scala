@@ -15,7 +15,7 @@ object SortingHOF extends App {
 
   /*
   2. sortBy: def sortBy(f: A => B)(implicit ord: Ordering)
-  - Used most of the time because we usually sort objects by one of their fields.
+  - Used most of the time because we usually sort Companions by one of their fields.
   - Just remember => sortBy(element => property)
   - sortBy sorts a collection based on a property (key) that you choose.
   - Ordering will be applied on this property.

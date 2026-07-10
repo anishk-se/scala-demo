@@ -12,7 +12,7 @@ object Introduction extends App {
   1. Implicit Method Call
   - greet method does not exist for String class
   - Compiler looks for anything, that can turn this String into something that has a greet method.
-  - It will look for all implicit classes, objects, values and methods, that can help.
+  - It will look for all implicit classes, Companions, values and methods, that can help.
    */
   implicit def fromStringToPerson(str: String): Person = Person(str)
   println("Anish".greet) // println(fromStringToPerson("Anish").greet

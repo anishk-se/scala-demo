@@ -12,7 +12,7 @@ object WhatAFunc extends App {
   // we can call doubler like function, it acts like a function.
   println(doubler(2)) // doubler.apply(2)
 
-  // So scala has predefined trait like MyFunction, which objects can be called like function.
+  // So scala has predefined trait like MyFunction, which Companions can be called like function.
   // Function1[A, B], Function2[A, B, C].......Function22[......]
 
   val stringToInt = new Function1[String, Int] {

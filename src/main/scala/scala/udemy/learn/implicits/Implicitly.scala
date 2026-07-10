@@ -8,8 +8,8 @@ import scala.udemy.learn.typeclass.HtmlEnrichment._
  - Current implicit scope means: Compiler will search
   - ✓ Local implicit values
   - ✓ Imported implicit values
-  - ✓ Companion object
-  - ✓ Companion object of given Type
+  - ✓ Companions object
+  - ✓ Companions object of given Type
  */
 object Implicitly extends App {
 

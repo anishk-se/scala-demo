@@ -8,10 +8,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78b6e47f-1733-4b55-a6fb-a1ad50515fb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/collections/TuplesHOF.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/CallByValue.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/DefaultArg.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/Classes.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/Companions.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/DoNotInherit.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/MethodNotation.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/NotingAndNull.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/collections/SortingHOF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/collections/SortingHOF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/WhatAFunc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/WhatAFunc.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Implicitly.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Implicitly.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Introduction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Introduction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/SyntaxSugars.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/SyntaxSugars.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,6 +112,8 @@
     "Application.LargestNumber.executor": "Run",
     "Application.ListHOF.executor": "Run",
     "Application.MapHOF.executor": "Run",
+    "Application.MethodNotation.executor": "Run",
+    "Application.NotingAndNull.executor": "Run",
     "Application.Options.executor": "Run",
     "Application.Organizing.executor": "Run",
     "Application.PatternMatching.executor": "Run",
@@ -120,6 +129,7 @@
     "Application.TypeClasses.executor": "Run",
     "Application.Variance.executor": "Run",
     "Application.WhatAFunc.executor": "Run",
+    "Application.objects.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
@@ -148,33 +158,7 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.DefaultArg">
-    <configuration name="AnonymousFunc" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.functions.AnonymousFunc" />
-      <module name="scala-essentials.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.functions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CurriesFunc" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.functions.CurriesFunc" />
-      <module name="scala-essentials.main" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.functions.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.NotingAndNull">
     <configuration name="DefaultArg" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.functions.DefaultArg" />
       <module name="scala-essentials.main" />
@@ -188,12 +172,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ToCurryFunc" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.functions.ToCurryFunc" />
+    <configuration name="MethodNotation" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.objects.MethodNotation" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.functions.*" />
+          <option name="PATTERN" value="scala.udemy.learn.objects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NotingAndNull" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.objects.NotingAndNull" />
+      <module name="scala-essentials.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scala.udemy.learn.objects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -214,6 +211,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="objects" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.objects.objects" />
+      <module name="scala-essentials.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="scala.udemy.learn.objects.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="scala-problems-interviews-build" />
       <method v="2">
@@ -227,11 +237,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.NotingAndNull" />
+        <item itemvalue="Application.objects" />
+        <item itemvalue="Application.MethodNotation" />
         <item itemvalue="Application.DefaultArg" />
         <item itemvalue="Application.TuplesHOF" />
-        <item itemvalue="Application.ToCurryFunc" />
-        <item itemvalue="Application.CurriesFunc" />
-        <item itemvalue="Application.AnonymousFunc" />
       </list>
     </recent_temporary>
   </component>
@@ -273,7 +283,7 @@
       <workItem from="1783494938401" duration="2503000" />
       <workItem from="1783509163510" duration="1431000" />
       <workItem from="1783566997794" duration="8463000" />
-      <workItem from="1783655310801" duration="3372000" />
+      <workItem from="1783655310801" duration="11148000" />
     </task>
     <servers />
   </component>

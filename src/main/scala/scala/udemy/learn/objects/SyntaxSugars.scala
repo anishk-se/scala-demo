@@ -38,6 +38,4 @@ object SyntaxSugars extends App {
   anish.age = 20 // setter call anish.age_=(20)
   anish.age // getter call
 
-  // 5.
-
 }
