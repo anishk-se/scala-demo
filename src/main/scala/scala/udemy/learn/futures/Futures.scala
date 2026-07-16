@@ -1,4 +1,4 @@
-package scala.udemy.learn.wrapper.futures
+package scala.udemy.learn.futures
 
 /*
  - A Future is a wrapper for asynchronous computation that will complete with either a successful result

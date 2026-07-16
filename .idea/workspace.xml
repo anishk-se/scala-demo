@@ -8,17 +8,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78b6e47f-1733-4b55-a6fb-a1ad50515fb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/Classes.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/Companions.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/DoNotInherit.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/MethodNotation.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/NotingAndNull.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/CurriesAndPaf.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/PartialFunction.scala" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/LazyEvaluation.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/collections/SortingHOF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/collections/SortingHOF.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/WhatAFunc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/WhatAFunc.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Implicitly.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Implicitly.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Introduction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Introduction.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/SyntaxSugars.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/SyntaxSugars.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/NotingAndNull.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/NotingAndNull.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/futures/BlockingFuture.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/futures/BlockingFuture.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/futures/FutureEx.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/futures/FutureEx.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/futures/Futures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/futures/Futures.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/futures/PromiseApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/futures/PromiseApp.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +93,7 @@
     "Application.CaseClassesEx.executor": "Run",
     "Application.CheckPrime.executor": "Run",
     "Application.CoVariance.executor": "Run",
+    "Application.CurriesAndPaf.executor": "Run",
     "Application.CurriesFunc.executor": "Run",
     "Application.DecomposePrime.executor": "Run",
     "Application.DefaultArg.executor": "Run",
@@ -110,12 +109,14 @@
     "Application.IterableHOF.executor": "Run",
     "Application.JsonSerializer.executor": "Run",
     "Application.LargestNumber.executor": "Run",
+    "Application.LazyEvaluation.executor": "Run",
     "Application.ListHOF.executor": "Run",
     "Application.MapHOF.executor": "Run",
     "Application.MethodNotation.executor": "Run",
     "Application.NotingAndNull.executor": "Run",
     "Application.Options.executor": "Run",
     "Application.Organizing.executor": "Run",
+    "Application.PartialFunction.executor": "Run",
     "Application.PatternMatching.executor": "Run",
     "Application.PimpMyLib.executor": "Run",
     "Application.Playground.executor": "Run",
@@ -158,9 +159,9 @@
       <recent name="$PROJECT_DIR$/src/main/resources" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.NotingAndNull">
-    <configuration name="DefaultArg" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.functions.DefaultArg" />
+  <component name="RunManager" selected="Application.LazyEvaluation">
+    <configuration name="CurriesAndPaf" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.functions.CurriesAndPaf" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
@@ -172,8 +173,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodNotation" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.objects.MethodNotation" />
+    <configuration name="LazyEvaluation" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.collections.LazyEvaluation" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
@@ -198,12 +199,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TuplesHOF" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.collections.TuplesHOF" />
+    <configuration name="PartialFunction" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.functions.PartialFunction" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.collections.*" />
+          <option name="PATTERN" value="scala.udemy.learn.functions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -237,11 +238,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LazyEvaluation" />
+        <item itemvalue="Application.CurriesAndPaf" />
+        <item itemvalue="Application.PartialFunction" />
         <item itemvalue="Application.NotingAndNull" />
         <item itemvalue="Application.objects" />
-        <item itemvalue="Application.MethodNotation" />
-        <item itemvalue="Application.DefaultArg" />
-        <item itemvalue="Application.TuplesHOF" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +284,10 @@
       <workItem from="1783494938401" duration="2503000" />
       <workItem from="1783509163510" duration="1431000" />
       <workItem from="1783566997794" duration="8463000" />
-      <workItem from="1783655310801" duration="11148000" />
+      <workItem from="1783655310801" duration="11915000" />
+      <workItem from="1783752022506" duration="618000" />
+      <workItem from="1783859639271" duration="408000" />
+      <workItem from="1784176696812" duration="7180000" />
     </task>
     <servers />
   </component>

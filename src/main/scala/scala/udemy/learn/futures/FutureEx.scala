@@ -1,4 +1,4 @@
-package scala.udemy.learn.wrapper.futures
+package scala.udemy.learn.futures
 
 import scala.concurrent.Future
 import scala.concurrent.ExecutionContext.Implicits.global

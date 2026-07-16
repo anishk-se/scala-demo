@@ -10,7 +10,7 @@ object NotingAndNull extends App {
    - Null is a type with exactly one value: null.
   */
   val s: String = null    // OK, String is an AnyRef
-  val n: Int = null       // compile error — Int is an AnyVal, Null isn't a subtype of it
+  // val n: Int = null       // compile error — Int is an AnyVal, Null isn't a subtype of it
 
   /*
    2. Nothing — the type with no values at all
