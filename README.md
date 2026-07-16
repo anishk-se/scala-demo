@@ -1,7 +1,7 @@
 <h1 align="center">Scala & Functional Programming Interview Practice</h1>
 
 ---
-<p align="center"><img src="material/tail_rec.jpeg" alt="Tail Rec"></p>
+<p align="center"><img src="readme/images/tail_rec.jpeg" alt="Tail Rec"></p>
 
 ---
 
@@ -45,7 +45,7 @@
 
 ---
 <h2 align="center">Collection</h2>
-<p align="center"><img src="material/colletion_diagram.png" alt="Tail Rec"></p> 
+<p align="center"><img src="readme/images/colletion_diagram.png" alt="Tail Rec"></p> 
 
 - Colored Box is default implementation
 - Seq is indexed, Set is unique and Map is key-value. (Tree* - is sorted)
@@ -90,4 +90,4 @@
 
 ---
 <h2 align="center">Sorting</h2>
-<p align="center"><img src="material/list_sortinng.png" alt="Tail Rec"></p>
+<p align="center"><img src="readme/images/list_sortinng.png" alt="Tail Rec"></p>
