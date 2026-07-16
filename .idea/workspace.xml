@@ -8,15 +8,71 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="78b6e47f-1733-4b55-a6fb-a1ad50515fb7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/CurriesAndPaf.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/PartialFunction.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/LazyEvaluation.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/NotingAndNull.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/NotingAndNull.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/futures/BlockingFuture.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/futures/BlockingFuture.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/futures/FutureEx.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/futures/FutureEx.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/futures/Futures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/futures/Futures.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/futures/PromiseApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/futures/PromiseApp.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part1recap/AdvancedRecap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akka/scala/learn/part1recap/AdvancedRecap.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part1recap/GeneralRecap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akka/scala/learn/part1recap/GeneralRecap.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part1recap/ThreadModelLimitation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akka/scala/learn/part1recap/ThreadModelLimitation.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part1recap/ThreadingRecap.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akka/scala/learn/part1recap/ThreadingRecap.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part2actors/ActorCapabilities.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akka/scala/learn/part2actors/ActorCapabilities.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part2actors/ActorsIntro.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akka/scala/learn/part2actors/ActorsIntro.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part2actors/ChangingActorBehaviour.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akka/scala/learn/part2actors/ChangingActorBehaviour.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part2actors/ChildActors.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akka/scala/learn/part2actors/ChildActors.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/part6patterns/StashDemo.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akka/scala/learn/part6patterns/StashDemo.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/playground/ActorCapabilitiesEx.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akka/scala/learn/playground/ActorCapabilitiesEx.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/playground/CounterEx.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akka/scala/learn/playground/CounterEx.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/playground/Playground.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akka/scala/learn/playground/Playground.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/akka/udemy/learn/playground/VotingSystemEx.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/akka/scala/learn/playground/VotingSystemEx.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/collections/ListHOF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/advn/scala/learn/part2_collections/ListHOF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/collections/MapHOF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/advn/scala/learn/part2_collections/MapHOF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/collections/SetHOF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/advn/scala/learn/part2_collections/SetHOF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/collections/SortingHOF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/advn/scala/learn/part2_collections/SortingHOF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/collections/TuplesHOF.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/advn/scala/learn/part2_collections/TuplesHOF.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/AnonymousFunc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part2_functions/AnonymousFunc.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/CallByValue.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part2_functions/CallByValue.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/CurriesAndPaf.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part2_functions/CurriesAndPaf.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/CurriesFunc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part2_functions/CurriesFunc.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/DefaultArg.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part2_functions/DefaultArg.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/PartialFunction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part2_functions/PartialFunction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/ToCurryFunc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part2_functions/ToCurryFunc.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/functions/WhatAFunc.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part2_functions/WhatAFunc.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/futures/BlockingFuture.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/advn/scala/learn/part3_futures/BlockingFuture.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/futures/FutureEx.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/advn/scala/learn/part3_futures/FutureEx.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/futures/Futures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/advn/scala/learn/part3_futures/Futures.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/futures/PromiseApp.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/advn/scala/learn/part3_futures/PromiseApp.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/generics/Basics.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/advn/scala/learn/part1_generics/Basics.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/generics/CoVariance.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/advn/scala/learn/part1_generics/CoVariance.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/generics/ContraVariance.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/advn/scala/learn/part1_generics/ContraVariance.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/generics/InVariance.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/advn/scala/learn/part1_generics/InVariance.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Implicitly.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/advn/scala/learn/part4_implicits/Implicitly.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Introduction.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/advn/scala/learn/part4_implicits/Introduction.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Organizing.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/advn/scala/learn/part4_implicits/Organizing.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/PimpMyLib.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/advn/scala/learn/part4_implicits/PimpMyLib.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/implicits/Scala_Implicits_Cheat_Sheet.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/advn/scala/learn/part4_implicits/Scala_Implicits_Cheat_Sheet.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/AnonymousClass.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part1_objects/AnonymousClass.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/CaseClasses.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part1_objects/CaseClasses.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/Classes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part1_objects/Classes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/Companions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part1_objects/Companions.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/DoNotInherit.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part1_objects/DoNotInherit.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/Exceptions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part1_objects/Exceptions.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/LazyEvaluation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part1_objects/LazyEvaluation.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/MethodNotation.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part1_objects/MethodNotation.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/NotingAndNull.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part1_objects/NotingAndNull.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/Packaging.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part1_objects/Packaging.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/objects/SyntaxSugars.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part1_objects/SyntaxSugars.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/patterns/AllPatterns.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part3_patterns/AllPatterns.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/patterns/BasicPattern.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part3_patterns/BasicPattern.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/patterns/MatchPerson.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part3_patterns/MatchPerson.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/programs/numbers/DecomposePrime.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/prob/scala/learn/numbers/DecomposePrime.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/programs/numbers/InsertionSort.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/prob/scala/learn/numbers/InsertionSort.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/programs/numbers/LargestNumber.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/prob/scala/learn/numbers/LargestNumber.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/typeclass/Convenience.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/type/scala/learn/part1_typeclass/Convenience.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/typeclass/EqualEnrichment.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/type/scala/learn/part1_typeclass/EqualEnrichment.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/typeclass/HtmlEnrichment.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/type/scala/learn/part1_typeclass/HtmlEnrichment.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/typeclass/JsonSerializer.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/type/scala/learn/part1_typeclass/JsonSerializer.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/typeclass/Summoner.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/type/scala/learn/part1_typeclass/Summoner.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/typeclass/TypeClasses.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/type/scala/learn/part1_typeclass/TypeClasses.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/HandlingFailures.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part4_wrapper/HandlingFailures.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/scala/udemy/learn/wrapper/Options.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/core/scala/learn/part4_wrapper/Options.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -161,11 +217,11 @@
   </component>
   <component name="RunManager" selected="Application.LazyEvaluation">
     <configuration name="CurriesAndPaf" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.functions.CurriesAndPaf" />
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.part2_functions.CurriesAndPaf" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.functions.*" />
+          <option name="PATTERN" value="scala.udemy.learn.part2_functions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,11 +243,11 @@
       </method>
     </configuration>
     <configuration name="NotingAndNull" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.objects.NotingAndNull" />
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.part1_objects.NotingAndNull" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.objects.*" />
+          <option name="PATTERN" value="scala.udemy.learn.part1_objects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,11 +256,11 @@
       </method>
     </configuration>
     <configuration name="PartialFunction" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.functions.PartialFunction" />
+      <option name="MAIN_CLASS_NAME" value="scala.udemy.learn.part2_functions.PartialFunction" />
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.functions.*" />
+          <option name="PATTERN" value="scala.udemy.learn.part2_functions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -217,7 +273,7 @@
       <module name="scala-essentials.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="scala.udemy.learn.objects.*" />
+          <option name="PATTERN" value="scala.udemy.learn.part1_objects.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -287,7 +343,7 @@
       <workItem from="1783655310801" duration="11915000" />
       <workItem from="1783752022506" duration="618000" />
       <workItem from="1783859639271" duration="408000" />
-      <workItem from="1784176696812" duration="7180000" />
+      <workItem from="1784176696812" duration="8974000" />
     </task>
     <servers />
   </component>
