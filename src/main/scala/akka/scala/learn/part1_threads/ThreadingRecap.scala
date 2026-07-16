@@ -1,4 +1,4 @@
-package akka.scala.learn.part1recap
+package akka.scala.learn.part1_threads
 
 import scala.concurrent.Future
 import scala.util.{Failure, Success}

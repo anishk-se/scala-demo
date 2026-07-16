@@ -1,4 +1,4 @@
-package akka.scala.learn.part2actors
+package akka.scala.learn.part2_actors
 
 import akka.actor.{Actor, ActorSystem, Props}
 
